@@ -1,0 +1,31 @@
+.lista-de-tablas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    border: 3px solid;
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.lista-de-tablas a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lista-de-tablas a:hover {
+    color: #45a091;
+}
+
+
+body {
+    text-align: center;
+}
+    
+a { color: black;}

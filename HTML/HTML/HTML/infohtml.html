@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoHTML</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <style>
+         body {
+          text-align: center;
+        } 
+    </style>
+    <div>
+        <h1>HTML y la sematica web</h1><br>
+
+        Cuando accedemos a una página web, debemos tener en cuenta que lo que realmente está ocurriendo es que <br>
+        nuestro navegador web está pidiendo un documento de texto al sistema (máquina) donde está almacenada esa <br>
+        página web. <br><br>
+
+        En cualquier navegador, existe una opción para ver el código fuente de la página web, la cuál nos mostrará <br>
+        exactamente el texto de dicho documento. El navegador normalmente no nos muestra esa información <br>
+        literalmente, sino que la interpreta y va dibujando los elementos de una página web. <br><br><br>
+
+        <h2>¿Qué es HTML?</h2><br><br>
+        El documento que lee el navegador está escrito en un lenguaje de marcado llamado HTML, que son las <br>
+        siglas de HyperText Markup Language (Lenguaje de marcas de hipertexto), o lo que es lo mismo, un <br>
+        lenguaje de etiquetas que permite incluir o hacer referencia a todo tipo de información. <br>
+        <img src="https://lenguajehtml.com/html/introduccion/que-es-html/documento-texto-chrome.png" width="900" alt="Google"><br><br>
+
+        <h2>¿Qué es una etiqueta HTML?</h2><br><br>
+        En los navegadores, tienes varias formas de acceder al código HTML de la página: <br>
+        <li>Pulsando la combinación de teclas "CTRL+U". Te aparecerá el código fuente tal cuál lo recibe el <br>
+            navegador.</li>
+        <li>Pulsando "CTRL+SHIFT+I" y accediendo a la pestaña Elements, o simplemente haciendo click con <br>
+            botón derecho y seleccionando la opción Inspeccionar. Aquí tienes un panel más avanzado e <br>
+            interactivo.</li>
+        
+        Dicho documento esta formado por etiquetas, que son la base del lenguaje HTML. Existen muchas <br>
+        etiquetas y cada una se utiliza para contener información y darle un cierto significado a dicha información, <br>
+        dependiendo de la etiqueta que se trate. Las etiquetas HTML tienen la siguiente estructura: <br><br>
+        <img src="Captura-removebg-preview.png" alt="Code"><br>
+        En HTML no se puede utilizar cualquier palabra como etiqueta (en el ejemplo anterior, es incorrecto <br>
+        utilizar la etiqueta «etiqueta»). En su lugar, existen una serie de etiquetas concretas, cada una de ellas con <br>
+        su finalidad y características propias, que tendremos que utilizar según requiera la ocasión. Por norma <br>
+        general, las etiquetas deben cerrarse para indicar donde finaliza su contenido. <br><br>
+       
+        <h2>Ejemplo de código HTML</h2><br><br>
+
+        A continuación, utilicemos la etiqueta "strong" (etiqueta utilizada para darle importancia a una palabra <br>   
+        sobre el resto) en el siguiente ejemplo: <br><br>
+        <img src="Ejemlo 1.PNG" alt="Code"><br><br>
+
+        Obsérvese que en el ejemplo estamos utilizando dos etiquetas diferentes. La etiqueta "p", que contiene toda <br>
+        la frase, y la etiqueta "strong", que contiene sólo la palabra palabra. La primera etiqueta, "p", se utiliza para <br>
+        contener párrafos, mientras que la segunda etiqueta, "strong", indica la palabra que tiene mayor importancia <br>
+        del texto. <br><br>
+
+        También se habrá observado que se pueden anidar etiquetas, esto es, incluir etiquetas dentro de otras. Es algo <br>
+        que se hace continuamente en HTML y que a medida que avancemos se tornará en algo habitual. <br><br><br>
+
+        ¿Qué es la semántica?<br><br>
+
+        Uno de los principales objetivos de HTML5 es introducir información en un documento HTML5 de forma que <br>
+        sea semántico y no visual. Con esto queremos decir que todos los aspectos visuales deben dejarse para el <br>
+        apartado de presentación, que se gestiona desde el lenguaje CSS. <br><br>
+
+        En el documento HTML debe aparecer información correctamente individualizada, de modo que al leer una <br>
+        página HTML comprendamos su significado, y si queremos cambiar la apariencia, lo hagamos en el <br>
+        documento CSS. Esto es lo que comunmente se conoce como separación de la presentación del contenido. <br><br><br>
+
+        Ejemplo de semántica HTML <br><br>
+
+        Un ejemplo donde se ve claramente este concepto es con la etiqueta "b" de HTML4 y anteriores. Dicha <br>
+        etiqueta se utilizaba para poner en negrita (bold) un texto específico: <br><br>
+        <img src="Sematica 1.PNG" alt="Code"><br><br>
+
+        En este caso, se está utilizando una propiedad de presentación (visual) en el HTML, algo que no se debe <br>
+        hacer en HTML5. La misión de HTML5 es mantener sólo contenido e información semántica en HTML5. Por <br>
+        dicha razón, la forma de hacerlo en HTML5 es la siguiente: <br><br>
+        <img src="Sematica 2.PNG" alt="Code"><br><br>
+
+        En este nuevo ejemplo, se reemplaza la etiqueta "b" (negrita, característica de presentación) por "strong", <br>
+        una etiqueta que indica información semántica (importante, característica semántica). De esta forma, en el <br>
+        HTML5 sólo se está añadiendo información particular sobre fragmentos de texto, y si queremos dotar de <br>
+        presentación visual, lo haremos desde CSS. <br><br><br>
+        
+        <p style="border: 1px solid rgb(0, 0, 0)"></p><br>
+        Así podríamos cambiar el estilo (negrita, colores, tipo de letra, etc...) independientemente de la <br>
+        información y contenido que existe en el HTML. Incluso podríamos establecer el mismo estilo que en el texto, <br>
+        para que visualmente se vea todo de forma uniforme, pero sin embargo, al leer la página HTML, el navegador <br>
+        sabrá siempre que fragmentos de texto son más importantes, aunque tenga el mismo estilo visual. <br><br>
+
+        El objetivo de crear documentos HTML semánticos es que, aunque estamos acostumbrados a crear páginas <br>
+        para usuarios (o más concretamente, para navegadores), cada vez tendemos más a una Internet capaz de <br>
+        procesar información de forma autónoma. Muestra de ello son, por ejemplo, los robots o crawlers de <br>
+        buscadores como Googlebot (el robot de búsqueda de Google) que es capaz de acceder a páginas web para <br>
+        analizar la información de la misma, entenderla e indexarla en su buscador. <br><br><br>
+
+        Quires saber mas sobre HTML? click <a href="https://lenguajehtml.com/html/introduccion/que-es-html/" target="_blank">AQUI!</a>
+    </div>
+</body>
+</html>
